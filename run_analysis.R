@@ -1,5 +1,11 @@
 run_analysis <- function () {
-  
+
+library("dplyr", lib.loc="/Library/Frameworks/R.framework/Versions/3.1/Resources/library")
+library("plyr", lib.loc="/Library/Frameworks/R.framework/Versions/3.1/Resources/library")
+library("tidyr", lib.loc="/Library/Frameworks/R.framework/Versions/3.1/Resources/library")
+
+
+
 ## save text file names and locations into variables
   file1 <- "./test/X_test.txt"
   file2 <- "./test/y_test.txt"
